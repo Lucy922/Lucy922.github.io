@@ -27,7 +27,7 @@ padding: 20px;
 
 .box{
   display: flex;
-  margin-top: 90px;
+  margin-top: 20px;
 }
 
 .box-info{
@@ -41,7 +41,7 @@ padding: 20px;
 }
 
 .icons{
-  margin-top: 70px;
+  margin-top: 50px;
   margin-left: 30px;
 }
 
@@ -63,7 +63,7 @@ padding: 20px;
 }
 
 .bottom-wrapper{
-  /* padding: 20px; */
+  padding-bottom: 60px;
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -83,9 +83,8 @@ padding: 20px;
 }
 
 .info:hover{
-  box-shadow: 10px 10px 10px 10px rgb(233, 233, 233);
   transition: all .5s ease-in-out;
-  transform: scale(1.1); 
+  transform: scale(1.03); 
 }
 
 .text-wrap {
@@ -93,8 +92,8 @@ padding: 20px;
 }
 
 .text-wrap p{
-  margin-top: 15px;
-  padding: 10px;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 .text-wrap h3{
@@ -131,13 +130,16 @@ padding: 20px;
 .about h3{
   font-size: 18px;
   color: blue;
+  text-align: center;
 }
 
 .about p{
-  word-break: break-all;
+  text-align: center;
+ margin-top: 10px;
 }
 
 .about{
- text-align: center;
- margin-top: 70px;
+  width: 40%;
+ margin: 0 auto;
+ margin-top: 60px;
 }

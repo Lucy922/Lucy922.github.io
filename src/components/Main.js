@@ -11,8 +11,10 @@ const Main = () => {
           <img src={image} alt="this is my thumbnail" />
           <div className="box-info">
             <div className="descrip">
-              <h3>LUCY OFEM</h3> <br />
+              <h3>LUCY OFEM</h3> 
+              <div>
               <p>Freelance Web Developer from Nigeria.</p>
+              </div>
             </div>
             <div className="icon-wrap">
               <a href="#" className="icons icon1"><FaTwitter /></a>
@@ -27,8 +29,8 @@ const Main = () => {
         </div>
       </div>
       <div className="about">
-        <h3>About Me</h3>
-        <p>I'm a highly focused and motivated web developer who loves building <br/> accessible and responsive websites. I've gathered knowlegde as a developer for over <br/> 2 years and also worked on a few personal projects which can be found on my github account. </p>
+        <h3>ABOUT ME</h3>
+        <p>I'm a highly focused and motivated web developer who loves building accessible and responsive websites. I've gathered knowlegde as a developer for over 2 years and also worked on a few personal projects which can be found on my github account. </p>
       </div>
       <div className="bottom-wrapper">
         <div className="wrap">
