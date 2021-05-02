@@ -2,19 +2,12 @@ body{
   background-color: #fff
 }
 
-.box img{
-  border-radius: 10px;
-  width: 300px;
-  height: 300px;
-  background-color: black;
-}
-
 .logo{
-color: #0A66C2;
-font-family: 'Times New Roman', Times, serif;
-font-size: 20px;
-padding: 20px;
-}
+  color: #0A66C2;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 20px;
+  }
 
 .top-wrapper{
   margin: 0 auto;
@@ -30,10 +23,28 @@ padding: 20px;
   margin-top: 20px;
 }
 
+.box img{
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+}
+
 .box-info{
   color: #070505;
   margin-top: 10px;
   margin-left: 50px;
+  margin-right: 50px;
+}
+
+.descrip h3{
+  font-size: 15px;
+  color: #070505;
+}
+
+.descrip p {
+  font-size: 14px;
+  color: rgb(119, 116, 116)
 }
 
 .icon-wrap{
@@ -62,11 +73,44 @@ padding: 20px;
   color: #0A66C2;
 }
 
+.email{
+  font-size: 14px;
+  margin-top: 10px;
+  color: rgb(119, 116, 116)
+}
+
+.about{
+  width: 40%;
+ margin: 0 auto;
+ margin-top: 70px;
+}
+
+.about h3{
+  font-size: 18px;
+  color: blue;
+  text-align: center;
+}
+
+.about p{
+  text-align: center;
+  margin-top: 10px;
+}
+
 .bottom-wrapper{
   padding-bottom: 60px;
   display: flex;
   justify-content: center;
   margin-top: 100px;
+}
+
+.wrap{
+  text-align: center;
+  margin-right: 30px;
+}
+
+.icon{
+  font-size: 30px;
+  color: rgb(167, 167, 167);
 }
 
 .info{
@@ -101,45 +145,57 @@ padding: 20px;
   color: blue;
 }
 
-.wrap{
-  text-align: center;
-  margin-right: 30px;
-}
+@media (max-width: 640px) {
+  .box{
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
 
-.icon{
-  font-size: 30px;
-  /* color: blue; */
-  color: rgb(167, 167, 167);
-}
-.descrip h3{
-  font-size: 15px;
-  color: #070505;
-}
+  .icons{
+    margin-left: 20px;
+  }
 
-.descrip p {
-  font-size: 14px;
-  color: rgb(119, 116, 116)
-}
+  .box-info{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
 
-.email{
-  font-size: 14px;
-  margin-top: 10px;
-  color: rgb(119, 116, 116)
-}
+  .icon-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.about h3{
-  font-size: 18px;
-  color: blue;
-  text-align: center;
-}
+  .descrip{
+    margin-top: 15px;
+  }
 
-.about p{
-  text-align: center;
- margin-top: 10px;
-}
+  .descrip p{
+    font-size: 16px;
+  }
 
-.about{
-  width: 40%;
- margin: 0 auto;
- margin-top: 60px;
+  .img{
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-wrapper{
+    width: 100%;
+    box-shadow: none;
+  }
+
+  .bottom-wrapper{
+    display: block;
+  }
+
+  .wrap{
+    margin-top: 30px;
+  }
+
+  .about{
+    width: 100%;
+    margin-top: 300px;
+  }
 }

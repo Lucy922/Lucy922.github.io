@@ -8,12 +8,14 @@ const Main = () => {
       <div className="logo">MY PORTFOLIO</div>
       <div className="top-wrapper">
         <div className="box">
-          <img src={image} alt="this is my thumbnail" />
+          <div className="img">
+            <img src={image} alt="this is my thumbnail" />
+          </div>
           <div className="box-info">
             <div className="descrip">
-              <h3>LUCY OFEM</h3> 
+              <h3>LUCY OFEM</h3>
               <div>
-              <p>Freelance Web Developer from Nigeria.</p>
+                <p>Freelance Web Developer from Nigeria.</p>
               </div>
             </div>
             <div className="icon-wrap">
@@ -51,7 +53,7 @@ const Main = () => {
           <div className="info">
             <div className="text-wrap">
               <h3>Frameworks</h3>
-              <p>React, NodeJs, Bootstrap.</p>
+              <p>React, NodeJs, ExpressJs, Bootstrap.</p>
             </div>
           </div>
         </div>
