@@ -20,7 +20,7 @@ const Main = () => {
             </div>
             <div className="icon-wrap">
               <a href="https://twitter.com/_dada_dev" className="icons icon1"><FaTwitter /></a>
-              <a href="https://github.com/Lucy922" className="icons icon2"><FaGithub /></a>
+              <a href="https://github.com/lucy922" className="icons icon2"><FaGithub /></a>
               <a href="https://www.linkedin.com/in/lucy-ofem-740a9a196/" className="icons icon3"><FaLinkedin /></a>
             </div>
             <div className="email">
